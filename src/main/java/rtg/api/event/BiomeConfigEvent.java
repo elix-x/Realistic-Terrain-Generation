@@ -5,7 +5,8 @@ import cpw.mods.fml.common.eventhandler.Event;
 public class BiomeConfigEvent extends Event
 {
 
-	public BiomeConfigEvent() {
+	public BiomeConfigEvent()
+	{
 		super();
 	}
 
