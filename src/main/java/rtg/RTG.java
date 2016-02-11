@@ -3,6 +3,7 @@ package rtg;
 import java.util.ArrayList;
 
 import rtg.api.event.BiomeConfigEvent;
+import rtg.api.event.RealisticBiomeAddEvent;
 import rtg.config.BiomeConfigManager;
 import rtg.config.ConfigManager;
 import rtg.debug.DebugHandler;
@@ -90,6 +91,8 @@ public class RTG {
     public void fmlLifeCycle(FMLPostInitializationEvent event)
     {
 
+        MinecraftForge.EVENT_BUS.post(new RealisticBiomeAddEvent.Pre());
+        
         RealisticBiomeVanillaBase.addBiomes();
         
         RealisticBiomeBOPBase.addBiomes();
@@ -101,6 +104,8 @@ public class RTG {
         RealisticBiomeAMBase.addBiomes();
         RealisticBiomeATGBase.addBiomes();
         RealisticBiomeCCBase.addBiomes();
+        
+        MinecraftForge.EVENT_BUS.post(new RealisticBiomeAddEvent.Post());
         
         RealisticBiomePresenceTester.doBiomeCheck();
     }
