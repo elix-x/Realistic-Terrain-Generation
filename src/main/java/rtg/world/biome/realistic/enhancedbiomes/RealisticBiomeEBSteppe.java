@@ -3,9 +3,9 @@ package rtg.world.biome.realistic.enhancedbiomes;
 import java.util.Random;
 
 import rtg.api.biome.BiomeConfig;
+import rtg.api.lib.OpenSimplexNoise;
 import rtg.config.enhancedbiomes.ConfigEB;
 import rtg.util.CellNoise;
-import rtg.util.OpenSimplexNoise;
 import rtg.world.gen.feature.WorldGenGrass;
 import rtg.world.gen.surface.enhancedbiomes.SurfaceEBSteppe;
 import rtg.world.gen.terrain.enhancedbiomes.TerrainEBSteppe;

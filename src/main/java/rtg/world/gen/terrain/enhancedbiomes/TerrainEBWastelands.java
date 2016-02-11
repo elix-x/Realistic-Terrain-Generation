@@ -2,8 +2,8 @@ package rtg.world.gen.terrain.enhancedbiomes;
 
 import org.apache.logging.log4j.Level;
 
+import rtg.api.lib.OpenSimplexNoise;
 import rtg.util.CellNoise;
-import rtg.util.OpenSimplexNoise;
 import rtg.world.gen.terrain.TerrainBase;
 import cpw.mods.fml.common.FMLLog;
 

@@ -3,9 +3,9 @@ package rtg.world.biome.realistic.vanilla;
 import java.util.Random;
 
 import rtg.api.biome.BiomeConfig;
+import rtg.api.lib.OpenSimplexNoise;
 import rtg.config.vanilla.ConfigVanilla;
 import rtg.util.CellNoise;
-import rtg.util.OpenSimplexNoise;
 import rtg.world.gen.feature.WorldGenCacti;
 import rtg.world.gen.surface.SurfaceBase;
 import rtg.world.gen.surface.SurfaceRiverOasis;

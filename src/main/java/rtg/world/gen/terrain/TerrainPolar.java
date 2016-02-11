@@ -1,8 +1,8 @@
 package rtg.world.gen.terrain;
 
+import rtg.api.lib.OpenSimplexNoise;
 import rtg.config.rtg.ConfigRTG;
 import rtg.util.CellNoise;
-import rtg.util.OpenSimplexNoise;
 
 public class TerrainPolar extends TerrainBase
 {

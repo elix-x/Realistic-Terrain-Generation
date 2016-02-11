@@ -6,8 +6,8 @@ import java.util.Random;
 
 import rtg.api.biome.BiomeConfig;
 import rtg.api.biome.vanilla.config.BiomeConfigVanillaBeach;
+import rtg.api.lib.OpenSimplexNoise;
 import rtg.util.CellNoise;
-import rtg.util.OpenSimplexNoise;
 import rtg.world.gen.feature.tree.WorldGenTreeRTGPalm;
 import rtg.world.gen.surface.vanilla.SurfaceVanillaBeach;
 import rtg.world.gen.terrain.vanilla.TerrainVanillaBeach;

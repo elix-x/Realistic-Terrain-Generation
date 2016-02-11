@@ -2,11 +2,11 @@ package rtg.world.gen.surface;
 
 import java.util.Random;
 
+import rtg.api.lib.OpenSimplexNoise;
 import rtg.config.rtg.ConfigRTG;
 import rtg.RTG;
 import rtg.util.CellNoise;
 import rtg.util.ModPresenceTester;
-import rtg.util.OpenSimplexNoise;
 import cpw.mods.fml.common.Loader;
 import cpw.mods.fml.common.registry.GameData;
 import exterminatorJeff.undergroundBiomes.api.BlockCodes;
@@ -18,6 +18,7 @@ import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.world.World;
 import net.minecraft.world.biome.BiomeGenBase;
+
 import rtg.util.UBColumnCache;
 
 public class SurfaceBase

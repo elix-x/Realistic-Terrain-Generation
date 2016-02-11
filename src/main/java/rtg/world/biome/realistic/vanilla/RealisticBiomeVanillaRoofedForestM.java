@@ -4,8 +4,8 @@ import java.util.Random;
 
 import rtg.api.biome.BiomeConfig;
 import rtg.api.biome.vanilla.config.BiomeConfigVanillaRoofedForestM;
+import rtg.api.lib.OpenSimplexNoise;
 import rtg.util.CellNoise;
-import rtg.util.OpenSimplexNoise;
 import rtg.world.gen.feature.WorldGenFlowers;
 import rtg.world.gen.feature.WorldGenGrass;
 import rtg.world.gen.feature.WorldGenLog;

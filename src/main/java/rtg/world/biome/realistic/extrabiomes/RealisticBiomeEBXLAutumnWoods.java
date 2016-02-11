@@ -4,8 +4,8 @@ import java.util.Random;
 
 import rtg.api.biome.BiomeConfig;
 import rtg.api.biome.extrabiomes.config.BiomeConfigEBXLAutumnWoods;
+import rtg.api.lib.OpenSimplexNoise;
 import rtg.util.CellNoise;
-import rtg.util.OpenSimplexNoise;
 import rtg.world.gen.feature.WorldGenLog;
 import rtg.world.gen.surface.extrabiomes.SurfaceEBXLAutumnWoods;
 import rtg.world.gen.terrain.extrabiomes.TerrainEBXLAutumnWoods;

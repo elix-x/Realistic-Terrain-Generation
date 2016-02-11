@@ -1,7 +1,7 @@
 package rtg.world.gen.terrain.enhancedbiomes;
 
+import rtg.api.lib.OpenSimplexNoise;
 import rtg.util.CellNoise;
-import rtg.util.OpenSimplexNoise;
 import rtg.world.gen.terrain.TerrainBase;
 
 public class TerrainEBLowHills extends TerrainBase

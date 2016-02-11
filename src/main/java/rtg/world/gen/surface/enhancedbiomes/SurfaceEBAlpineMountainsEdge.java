@@ -2,9 +2,9 @@ package rtg.world.gen.surface.enhancedbiomes;
 
 import java.util.Random;
 
+import rtg.api.lib.OpenSimplexNoise;
 import rtg.util.CellNoise;
 import rtg.util.CliffCalculator;
-import rtg.util.OpenSimplexNoise;
 import enhancedbiomes.api.EBAPI;
 import enhancedbiomes.blocks.EnhancedBiomesBlocks;
 

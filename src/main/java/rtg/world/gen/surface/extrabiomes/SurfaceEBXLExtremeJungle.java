@@ -2,9 +2,9 @@ package rtg.world.gen.surface.extrabiomes;
 
 import java.util.Random;
 
+import rtg.api.lib.OpenSimplexNoise;
 import rtg.util.CellNoise;
 import rtg.util.CliffCalculator;
-import rtg.util.OpenSimplexNoise;
 import rtg.world.gen.surface.SurfaceBase;
 
 import net.minecraft.block.Block;

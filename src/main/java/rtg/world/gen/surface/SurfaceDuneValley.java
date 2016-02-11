@@ -4,9 +4,11 @@ import java.util.Random;
 
 
 
+
+import rtg.api.lib.OpenSimplexNoise;
 import rtg.util.CellNoise;
-import rtg.util.OpenSimplexNoise;
 import rtg.world.biome.realistic.vanilla.RealisticBiomeVanillaBase;
+
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.world.World;

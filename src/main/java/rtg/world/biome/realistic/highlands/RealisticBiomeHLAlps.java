@@ -1,12 +1,15 @@
 package rtg.world.biome.realistic.highlands;
 
 import highlands.api.HighlandsBiomes;
+
 import java.util.Random;
+
 import net.minecraft.world.World;
+
 import rtg.api.biome.BiomeConfig;
+import rtg.api.lib.OpenSimplexNoise;
 import rtg.config.highlands.ConfigHL;
 import rtg.util.CellNoise;
-import rtg.util.OpenSimplexNoise;
 import rtg.world.gen.surface.highlands.SurfaceHLAlps;
 import rtg.world.gen.terrain.highlands.TerrainHLAlps;
 

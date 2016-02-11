@@ -1,5 +1,7 @@
 package rtg.util;
 
+import rtg.api.lib.OpenSimplexNoise;
+
 import net.minecraft.world.World;
 
 public class CanyonColor 

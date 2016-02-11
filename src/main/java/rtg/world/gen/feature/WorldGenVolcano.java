@@ -2,9 +2,9 @@ package rtg.world.gen.feature;
 
 import java.util.Random;
 
+import rtg.api.lib.OpenSimplexNoise;
 import rtg.config.rtg.ConfigRTG;
 import rtg.util.CellNoise;
-import rtg.util.OpenSimplexNoise;
 import rtg.util.TerrainMath;
 import cpw.mods.fml.common.registry.GameData;
 
