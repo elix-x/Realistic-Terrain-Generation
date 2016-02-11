@@ -4,9 +4,9 @@ import java.util.Random;
 
 import rtg.api.biome.BiomeConfig;
 import rtg.api.biome.vanilla.config.BiomeConfigVanillaIcePlains;
+import rtg.api.lib.CellNoise;
 import rtg.api.lib.OpenSimplexNoise;
 import rtg.config.vanilla.ConfigVanilla;
-import rtg.util.CellNoise;
 import rtg.world.gen.feature.WorldGenBlob;
 import rtg.world.gen.feature.WorldGenLog;
 import rtg.world.gen.surface.vanilla.SurfaceVanillaIcePlains;

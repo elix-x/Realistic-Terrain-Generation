@@ -3,9 +3,9 @@ package rtg.world.biome.realistic.enhancedbiomes;
 import java.util.Random;
 
 import rtg.api.biome.BiomeConfig;
+import rtg.api.lib.CellNoise;
 import rtg.api.lib.OpenSimplexNoise;
 import rtg.config.enhancedbiomes.ConfigEB;
-import rtg.util.CellNoise;
 import rtg.world.gen.surface.enhancedbiomes.SurfaceEBSnowyWastelands;
 import rtg.world.gen.terrain.enhancedbiomes.TerrainEBSnowyWastelands;
 import enhancedbiomes.api.EBAPI;

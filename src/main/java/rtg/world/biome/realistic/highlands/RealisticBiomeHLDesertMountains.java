@@ -5,9 +5,9 @@ import highlands.api.HighlandsBiomes;
 import java.util.Random;
 
 import rtg.api.biome.BiomeConfig;
+import rtg.api.lib.CellNoise;
 import rtg.api.lib.OpenSimplexNoise;
 import rtg.config.highlands.ConfigHL;
-import rtg.util.CellNoise;
 import rtg.world.gen.surface.highlands.SurfaceHLDesertMountains;
 import rtg.world.gen.terrain.highlands.TerrainHLDesertMountains;
 

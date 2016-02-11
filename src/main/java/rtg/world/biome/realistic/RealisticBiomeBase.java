@@ -15,9 +15,9 @@ import java.util.Random;
 import org.apache.logging.log4j.Level;
 
 import rtg.api.biome.BiomeConfig;
+import rtg.api.lib.CellNoise;
 import rtg.api.lib.OpenSimplexNoise;
 import rtg.config.rtg.ConfigRTG;
-import rtg.util.CellNoise;
 import rtg.util.RandomUtil;
 import rtg.world.biome.BiomeBase;
 import rtg.world.biome.RTGBiomeProvider;

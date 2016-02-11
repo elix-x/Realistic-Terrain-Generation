@@ -2,8 +2,8 @@ package rtg.world.gen.surface.vanilla;
 
 import java.util.Random;
 
+import rtg.api.lib.CellNoise;
 import rtg.api.lib.OpenSimplexNoise;
-import rtg.util.CellNoise;
 import rtg.util.CliffCalculator;
 import rtg.world.gen.surface.SurfaceBase;
 

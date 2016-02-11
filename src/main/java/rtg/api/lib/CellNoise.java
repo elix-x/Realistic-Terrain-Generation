@@ -1,6 +1,6 @@
 /*
  * Copyright (C) 2003, 2004 Jason Bevins (original libnoise code)
- * Copyright © 2010 Thomas J. Hodge (java port of libnoise)
+ * Copyright (C) 2010 Thomas J. Hodge (java port of libnoise)
  * 
  * This file was part of libnoiseforjava.
  * 
@@ -22,7 +22,7 @@
  * libnoiseforjava.  If not, see <http://www.gnu.org/licenses/>.
  * 
  */
-package rtg.util;
+package rtg.api.lib;
 
 import java.util.Random;
 

@@ -3,10 +3,10 @@ package rtg.world.biome.realistic.enhancedbiomes;
 import java.util.Random;
 
 import rtg.api.biome.BiomeConfig;
+import rtg.api.lib.CellNoise;
 import rtg.api.lib.OpenSimplexNoise;
 import rtg.config.enhancedbiomes.ConfigEB;
 import rtg.config.rtg.ConfigRTG;
-import rtg.util.CellNoise;
 import rtg.world.biome.WorldChunkManagerRTG;
 import rtg.world.gen.feature.WorldGenGrass;
 import rtg.world.gen.feature.WorldGenVolcano;

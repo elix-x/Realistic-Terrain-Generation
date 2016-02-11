@@ -1,7 +1,7 @@
 package rtg.world.gen.terrain.highlands;
 
+import rtg.api.lib.CellNoise;
 import rtg.api.lib.OpenSimplexNoise;
-import rtg.util.CellNoise;
 import rtg.world.gen.terrain.TerrainBase;
 
 public class TerrainHLBirchHills extends TerrainBase

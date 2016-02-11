@@ -2,10 +2,10 @@ package rtg.world.gen.surface;
 
 import java.util.Random;
 
+import rtg.api.lib.CellNoise;
 import rtg.api.lib.OpenSimplexNoise;
 import rtg.config.rtg.ConfigRTG;
 import rtg.RTG;
-import rtg.util.CellNoise;
 import rtg.util.ModPresenceTester;
 import cpw.mods.fml.common.Loader;
 import cpw.mods.fml.common.registry.GameData;

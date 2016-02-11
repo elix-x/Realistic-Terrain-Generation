@@ -13,11 +13,11 @@ import java.util.Map;
 import java.util.Random;
 
 import rtg.api.biome.BiomeConfig;
+import rtg.api.lib.CellNoise;
 import rtg.api.lib.OpenSimplexNoise;
 import rtg.config.rtg.ConfigRTG;
 import rtg.util.AICWrapper;
 import rtg.util.CanyonColor;
-import rtg.util.CellNoise;
 import rtg.world.biome.BiomeAnalyzer;
 import rtg.world.biome.RTGBiomeProvider;
 import rtg.world.biome.WorldChunkManagerRTG;

@@ -2,8 +2,8 @@ package rtg.world.gen.surface;
 
 import java.util.Random;
 
+import rtg.api.lib.CellNoise;
 import rtg.api.lib.OpenSimplexNoise;
-import rtg.util.CellNoise;
 
 import net.minecraft.block.Block;
 import net.minecraft.world.World;

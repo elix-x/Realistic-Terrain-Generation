@@ -3,9 +3,9 @@ package rtg.world.biome.realistic.biomesoplenty;
 import java.util.Random;
 
 import rtg.api.biome.BiomeConfig;
+import rtg.api.lib.CellNoise;
 import rtg.api.lib.OpenSimplexNoise;
 import rtg.config.biomesoplenty.ConfigBOP;
-import rtg.util.CellNoise;
 import rtg.world.gen.feature.WorldGenGrass;
 import rtg.world.gen.feature.tree.WorldGenTreeRTGShrub;
 import rtg.world.gen.surface.biomesoplenty.SurfaceBOPLavenderFields;
